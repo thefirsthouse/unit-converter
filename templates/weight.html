@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="shortcut icon" href="../static/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit Converter</h1>
+        <div class="tabs">
+            <button class="tab" data-tab="length">Length</button>
+            <button class="tab active" data-tab="weight">Weight</button>
+            <button class="tab" data-tab="temperature">Temperature</button>
+        </div>
+        <div class="form">
+            <label>Enter the weight to convert</label>
+            <input type="number" placeholder="Enter value">
+            <label>Unit to Convert from</label>
+            <select>
+                <option value="mg">Milligram</option>
+                <option value="g">Gram</option>
+                <option value="kg">Kilogram</option>
+                <option value="onc">Ounce</option>
+                <option value="pnd">Pound</option>
+            </select>
+            <label>Unit to Convert to</label>
+            <select>
+                <option value="mg">Milligram</option>
+                <option value="g">Gram</option>
+                <option value="kg">Kilogram</option>
+                <option value="onc">Ounce</option>
+                <option value="pnd">Pound</option>
+            </select>
+            <button>Convert</button>
+        </div>
+    </div>
+</body>
+</html>
